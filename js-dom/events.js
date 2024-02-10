@@ -1,6 +1,7 @@
 console.log('This is Separate Js File');
 
 // Option 2
+//  <button onclick="makeRed()">Make Red</button> 
 function makeRed(){
     document.body.style.backgroundColor = 'red';
 }
@@ -19,3 +20,17 @@ const purpleButton = document.getElementById('make-purple');
 purpleButton.onclick = function makePurple(){
   document.body.style.backgroundColor = 'purple';
 }
+
+// Option 4
+const pinkButton = document.getElementById('make-pink');
+pinkButton.addEventListener('click', makePink);
+function makePink(){
+    document.body.style.backgroundColor = 'pink';
+}
+
+// Option 4 another
+
+const makeGreenButton = document.getElementById('make-green');
+makeGreenButton.addEventListener('click', function makeGreen(){
+   document.body.style.backgroundColor = 'green';
+})
