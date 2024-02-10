@@ -1,6 +1,6 @@
 console.log('This is Separate Js File');
 
-// Option 2
+// Option 2 Important: we will Use this maximum time.
 //  <button onclick="makeRed()">Make Red</button> 
 function makeRed(){
     document.body.style.backgroundColor = 'red';
@@ -35,7 +35,7 @@ makeGreenButton.addEventListener('click', function makeGreen(){
    document.body.style.backgroundColor = 'green';
 })
 
-//  Option 5 Final Use this
+//  Option 5 Final we will use this very often. very important!
   // document.getElementById('make-goldenrod').addEventListener('click', function(){})
   document.getElementById('make-goldenrod').addEventListener('click', function(){
     document.body.style.backgroundColor = 'goldenrod';
